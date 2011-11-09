@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.lolay.android</groupId>
+	<artifactId>lolay-strands</artifactId>
+	<packaging>jar</packaging>
+	<name>Lolay Mobile Async Library</name>
+	<version>1-SNAPSHOT</version>
+	<scm>
+		<connection>scm:git:git://github.com/lolay/strands-android.git</connection>
+		<developerConnection>scm:git:git@github.com:lolay/strands-android.git</developerConnection>
+		<url>http://github.com/lolay/strands-android</url>
+	</scm>
+	<distributionManagement>
+		<repository>
+			<id>lolay</id>
+			<name>Lolay's Repository</name>
+			<url>http://maven.lolay.com</url>
+		</repository>
+	</distributionManagement>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<configuration>
+						<altDeploymentRepository>site::default::${maven-site}</altDeploymentRepository>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.6</source>
+						<target>1.6</target>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>com.google.android</groupId>
+			<artifactId>android</artifactId>
+	        <version>2.2.1</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.lolay.android</groupId>
+			<artifactId>lolay-logjam</artifactId>
+			<version>1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>lolay</id>
+			<name>Lolay's Repository</name>
+			<url>http://maven.lolay.com</url>
+		</repository>
+	</repositories>
+</project>
