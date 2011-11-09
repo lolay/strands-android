@@ -1,3 +1,7 @@
+/*
+ * Created by Lolay, Inc.
+ * Copyright 2011 Lolay, Inc. All rights reserved.
+ */
 package com.lolay.android.task;
 
 import java.lang.ref.WeakReference;
