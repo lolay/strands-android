@@ -1,1 +1,3 @@
-An Android library that manages async tasks and status updates on Android
+An Android Studio module for helping with asynchronicity in Android.
+
+WARNING: This must be cloned/submoduled into a directory named LolayStrands.
