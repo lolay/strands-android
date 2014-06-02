@@ -13,7 +13,7 @@
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
 //
-package com.lolay.android.task;
+package com.lolay.android.strands.task;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
@@ -23,7 +23,7 @@ import java.util.Set;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import com.lolay.android.progress.LolayProgressManager;
+import com.lolay.android.strands.progress.LolayProgressManager;
 
 import android.os.AsyncTask;
 

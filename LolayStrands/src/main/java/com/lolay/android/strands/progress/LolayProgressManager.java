@@ -13,7 +13,7 @@
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
 //
-package com.lolay.android.progress;
+package com.lolay.android.strands.progress;
 
 import java.util.Map;
 import java.util.WeakHashMap;
